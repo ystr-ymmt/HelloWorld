@@ -18,6 +18,7 @@
 		90117B37165E286D0029EB32 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90117B36165E286D0029EB32 /* Default-568h@2x.png */; };
 		90117B3A165E286D0029EB32 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90117B38165E286D0029EB32 /* MainStoryboard.storyboard */; };
 		90117B3D165E286D0029EB32 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90117B3C165E286D0029EB32 /* HelloWorldViewController.m */; };
+		908DF212166881A3003D9087 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 908DF211166881A3003D9087 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		90117B39165E286D0029EB32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		90117B3B165E286D0029EB32 /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		90117B3C165E286D0029EB32 /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		908DF211166881A3003D9087 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		90117B11165E286D0029EB32 = {
 			isa = PBXGroup;
 			children = (
+				908DF211166881A3003D9087 /* README.md */,
 				90117B26165E286D0029EB32 /* HelloWorld */,
 				90117B1F165E286D0029EB32 /* Frameworks */,
 				90117B1D165E286D0029EB32 /* Products */,
@@ -164,6 +167,7 @@
 				90117B35165E286D0029EB32 /* Default@2x.png in Resources */,
 				90117B37165E286D0029EB32 /* Default-568h@2x.png in Resources */,
 				90117B3A165E286D0029EB32 /* MainStoryboard.storyboard in Resources */,
+				908DF212166881A3003D9087 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +297,7 @@
 				90117B42165E286D0029EB32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
