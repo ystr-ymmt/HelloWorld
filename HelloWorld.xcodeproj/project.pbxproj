@@ -16,8 +16,9 @@
 		90117B33165E286D0029EB32 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90117B32165E286D0029EB32 /* Default.png */; };
 		90117B35165E286D0029EB32 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90117B34165E286D0029EB32 /* Default@2x.png */; };
 		90117B37165E286D0029EB32 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90117B36165E286D0029EB32 /* Default-568h@2x.png */; };
-		90117B3A165E286D0029EB32 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90117B38165E286D0029EB32 /* MainStoryboard.storyboard */; };
+		90117B3A165E286D0029EB32 /* MainStoryboard_1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90117B38165E286D0029EB32 /* MainStoryboard_1.storyboard */; };
 		90117B3D165E286D0029EB32 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90117B3C165E286D0029EB32 /* HelloWorldViewController.m */; };
+		906B137316746EBF00C3048B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906B137216746EBF00C3048B /* MainStoryboard.storyboard */; };
 		908DF212166881A3003D9087 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 908DF211166881A3003D9087 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +36,10 @@
 		90117B32165E286D0029EB32 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		90117B34165E286D0029EB32 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		90117B36165E286D0029EB32 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		90117B39165E286D0029EB32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		90117B39165E286D0029EB32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_1.storyboard; sourceTree = "<group>"; };
 		90117B3B165E286D0029EB32 /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		90117B3C165E286D0029EB32 /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		906B137216746EBF00C3048B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		908DF211166881A3003D9087 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +90,8 @@
 			children = (
 				90117B2F165E286D0029EB32 /* HelloWorldAppDelegate.h */,
 				90117B30165E286D0029EB32 /* HelloWorldAppDelegate.m */,
-				90117B38165E286D0029EB32 /* MainStoryboard.storyboard */,
+				90117B38165E286D0029EB32 /* MainStoryboard_1.storyboard */,
+				906B137216746EBF00C3048B /* MainStoryboard.storyboard */,
 				90117B3B165E286D0029EB32 /* HelloWorldViewController.h */,
 				90117B3C165E286D0029EB32 /* HelloWorldViewController.m */,
 				90117B27165E286D0029EB32 /* Supporting Files */,
@@ -166,8 +169,9 @@
 				90117B33165E286D0029EB32 /* Default.png in Resources */,
 				90117B35165E286D0029EB32 /* Default@2x.png in Resources */,
 				90117B37165E286D0029EB32 /* Default-568h@2x.png in Resources */,
-				90117B3A165E286D0029EB32 /* MainStoryboard.storyboard in Resources */,
+				90117B3A165E286D0029EB32 /* MainStoryboard_1.storyboard in Resources */,
 				908DF212166881A3003D9087 /* README.md in Resources */,
+				906B137316746EBF00C3048B /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +199,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		90117B38165E286D0029EB32 /* MainStoryboard.storyboard */ = {
+		90117B38165E286D0029EB32 /* MainStoryboard_1.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				90117B39165E286D0029EB32 /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = MainStoryboard_1.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
